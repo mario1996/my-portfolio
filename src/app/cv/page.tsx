@@ -27,17 +27,17 @@ const CV = () => {
               <div className="flex-1 border-t-2 border-gray-200"></div>
             </div>
             <div className="flex flex-row gap-x-5 my-3 justify-center">
-              <p>
+              <p className="text-sm sm:text-base">
                 <b>Date of birth:</b> 03/05/1996
               </p>
-              <p>
+              <p className="text-sm sm:text-base">
                 <b>Nationality:</b> Portuguese
               </p>
-              <p>
+              <p className="text-sm sm:text-base">
                 <b>Gender:</b> Male
               </p>
             </div>
-            <p className="text-justify mb-3">
+            <p className="text-justify mb-3 text-sm sm:text-base">
               Graduate degree in Computer science. Always been interested in
               technologies, which motivated me to choose this course.
               Development experience in ReactJS, Typescript, GraphQL, .NET(C#),
@@ -63,7 +63,7 @@ const CV = () => {
               Software engineer at Farfetch
             </p>
             <p className="font-bold text-sm sm:text-lg mb-3">2023 - 2024</p>
-            <p className="text-justify mb-3">
+            <p className="text-justify mb-3 text-sm sm:text-base">
               Worked on Communications for final costumer initiatives in teams
               from around 5 to 10 elements. Had the purpose of building a
               back-office website for the internal clients to be able to build
@@ -79,25 +79,25 @@ const CV = () => {
               that would then be converted to HTML and CSS on the client side.
             </p>
             <p className="font-bold text-sm sm:text-lg mb-3">2020 - 2023</p>
-            <p className="text-justify">
+            <p className="text-justify text-sm sm:text-base">
               Worked on Post purchase initiatives included the checkout page,
               the my account orders, account details, cancel orders, return
               orders and address book pages. Some of the initiatives I’ve
               worked:
             </p>
             <ul className="list-inside list-disc">
-              <li className="text-justify">
+              <li className="text-justify text-sm sm:text-base">
                 Paper free initiative where the objective was to remove invoices
                 and returns instructions from the delivery boxes by allowing
                 costumers to download that information on the Order information.
               </li>
-              <li className="text-justify">
+              <li className="text-justify text-sm sm:text-base">
                 Payback was an initiative that allowed German costumers to
                 gather Payback points when they did a purchase on the Farfetch
                 website that allowed them to use those points in any of the
                 other Payback partners.
               </li>
-              <li className="text-justify">
+              <li className="text-justify text-sm sm:text-base">
                 Boleto and iDeal payment methods initiatives where we had to
                 create new payment confirmation page for each one. In the Boleto
                 case we had to created a payment page with all the necessary
@@ -105,12 +105,12 @@ const CV = () => {
                 create a payment page with a dropdown with all the banks that
                 have agreement with iDeal.
               </li>
-              <li className="text-justify">
+              <li className="text-justify text-sm sm:text-base">
                 Worked on several emails initiatives where the objective was to
                 create Transactional emails to seamlessly integrate with clients
                 website journey.
               </li>
-              <li className="text-justify">
+              <li className="text-justify text-sm sm:text-base">
                 UI updates on all of the post purchase pages.
               </li>
             </ul>
@@ -119,7 +119,7 @@ const CV = () => {
             <p className="font-bold text-base sm:text-xl mb-3">
               Job related skills:
             </p>
-            <ul className="list-inside list-disc">
+            <ul className="list-inside list-disc text-sm sm:text-base">
               <li>React</li>
               <li>Typescript</li>
               <li>Unit tests in React Testing Library</li>
@@ -138,7 +138,7 @@ const CV = () => {
             <p className="font-bold text-base sm:text-xl mb-3">
               Software engineer at Tekever
             </p>
-            <p className="text-justify mb-3">
+            <p className="text-justify mb-3 text-sm sm:text-base">
               Uses an agile methodology, more specifically the SCRUM framework,
               as the team sought to have a close relationship with the client
               and obtain information about the requirements whilst delivering
@@ -152,7 +152,7 @@ const CV = () => {
             <p className="font-bold text-base sm:text-xl mb-3">
               Job related skills:
             </p>
-            <ul className="list-inside list-disc">
+            <ul className="list-inside list-disc text-sm sm:text-base">
               <li>React using Visual Studio Code</li>
               <li>.NET(C#) using Visual Studio 2017</li>
               <li>Git as version control system for completing tasks</li>
@@ -170,11 +170,11 @@ const CV = () => {
               <p className="font-bold text-base sm:text-xl mb-3">
                 2014 – 2018 Setúbal, Portugal
               </p>
-              <p>
+              <p className="text-sm sm:text-base">
                 Computer Science at Escola Superior de Tecnologia de Setúbal,
                 Instituto Politécnico de Setúbal
               </p>
-              <p>
+              <p className="text-sm sm:text-base">
                 <b>Website</b> -{" "}
                 <a
                   href="https://www.estsetubal.ips.pt"
@@ -195,11 +195,11 @@ const CV = () => {
               <div className="flex-1 border-t-2 border-gray-200"></div>
             </div>
             <div>
-              <ul className="list-inside list-disc mb-3">
+              <ul className="list-inside list-disc mb-3 text-sm sm:text-base">
                 <b>Mother tongue:</b>
                 <li>Portuguese</li>
               </ul>
-              <ul className="list-inside list-disc mb-3">
+              <ul className="list-inside list-disc mb-3 text-sm sm:text-base">
                 <b>Other languages:</b>
                 <li>English - C1 (Proficient user)</li>
                 <li>Russian - B1 (Independent user)</li>

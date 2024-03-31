@@ -5,8 +5,8 @@ const MyProfile = () => {
     <div className="flex flex-col-reverse sm:flex-row justify-between sm:space-x-10">
       <div>
         <p className="font-bold text-xl sm:text-2xl py-2">Mário Baldé</p>
-        <p className="font-bold text-base sm:text-l py-2">
-          Software Developer - Frontend
+        <p className="font-bold text-base sm:text-lg py-2">
+          Software Engineer - Frontend
         </p>
         <p className="text-justify text-sm sm:text-base">
           My journey into the world of programming has been driven by a desire

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="bg-white rounded-lg shadow m-4 sliderGradient w-1/2 mx-auto">
+    <footer className="bg-white rounded-lg shadow m-4 sliderGradient w-11/12 sm:w-1/2 mx-auto">
       <div className="w-full mx-auto max-w-screen-xl p-4 text-center md:flex md:items-center md:justify-between">
         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">
           © 2024 Mário Baldé
