@@ -18,16 +18,18 @@
 
 body {
   color: rgb(var(--foreground-rgb));
+  background: rgb(9, 7, 45);
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
-}
+    101deg,
+    rgba(9, 7, 45, 1) 0%,
+    rgba(16, 75, 102, 1) 30%,
+    rgba(16, 75, 102, 1) 70%,
+    rgba(9, 7, 45, 1) 100%
+  );
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  @layer utilities {
+    .text-balance {
+      text-wrap: balance;
+    }
   }
 }
