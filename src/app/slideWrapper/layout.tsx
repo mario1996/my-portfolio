@@ -3,7 +3,7 @@ const SlideWrapper = ({
 }: Readonly<{
   children: React.ReactNode;
 }>) => {
-  return <div className="p-10">{children}</div>;
+  return <div className="flex flex-col p-10">{children}</div>;
 };
 
 export default SlideWrapper;

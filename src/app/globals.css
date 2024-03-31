@@ -27,6 +27,18 @@ body {
     rgba(9, 7, 45, 1) 100%
   );
 
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  .sliderGradient {
+    background: rgb(16, 75, 102);
+    background: radial-gradient(
+      circle,
+      rgba(16, 75, 102, 1) 0%,
+      rgba(50, 56, 58, 1) 100%
+    );
+  }
+
   @layer utilities {
     .text-balance {
       text-wrap: balance;

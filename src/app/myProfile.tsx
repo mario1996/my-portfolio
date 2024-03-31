@@ -1,42 +1,36 @@
-import Link from "next/link";
 import Image from "next/image";
-import profileImg from "./profileImg.jpg";
-import linkedinIcon from "./linkedinIcon.png";
 
 const MyProfile = () => {
   return (
-    <div className="flex flex-row justify-between space-x-10">
+    <div className="flex flex-col-reverse sm:flex-row justify-between sm:space-x-10">
       <div>
-        <p className="font-bold text-3xl py-2">Mário Baldé</p>
-        <p className="font-bold text-xl">Software Developer - Frontend</p>
-        <p className="text-justify">
-          My journey into the world of programming has been driven by an
-          insatiable curiosity and a desire to create meaningful, impactful
-          software.
+        <p className="font-bold text-xl sm:text-2xl py-2">Mário Baldé</p>
+        <p className="font-bold text-base sm:text-l py-2">
+          Software Developer - Frontend
         </p>
-        <p className="text-justify">
+        <p className="text-justify text-sm sm:text-base">
+          My journey into the world of programming has been driven by a desire
+          to create meaningful and impactful software.
+        </p>
+        <p className="text-justify text-sm sm:text-base">
           I&apos;m a dedicated software developer with a passion for crafting
           innovative solutions.
         </p>
-        <Link
-          href="https://linkedin.com/in/mário-baldé-a0187a140"
-          target="_blank"
-        >
-          <Image
-            src={linkedinIcon}
-            alt="profile image"
-            loading="lazy"
-            width={40}
-            height={40}
-          />
-        </Link>
       </div>
-      <Image
-        src={profileImg}
-        alt="profile image"
-        loading="lazy"
-        className="rounded-full border-2 border-sky-500 w-1/3 h-1/3"
-      />
+      <div>
+        <Image
+          src="/images/profileImage.jpeg"
+          alt="Mario Balde Profile Image"
+          loading="lazy"
+          sizes="100vw"
+          style={{
+            width: "100%",
+            height: "auto",
+          }}
+          width={50}
+          height={50}
+        />
+      </div>
     </div>
   );
 };
