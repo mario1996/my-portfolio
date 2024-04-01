@@ -20,14 +20,14 @@ const Card = () => {
         clickable: true,
       }}
       keyboard
-      className="sliderGradient w-11/12 sm:w-1/2 aspect-video shadow-2xl rounded-lg"
+      className="sliderGradient w-11/12 sm:w-1/2 aspect-auto sm:aspect-video shadow-2xl rounded-lg"
     >
-      <SwiperSlide className="self-center">
+      <SwiperSlide className="content-center">
         <SlideWrapper>
           <MyProfile />
         </SlideWrapper>
       </SwiperSlide>
-      <SwiperSlide className="self-center">
+      <SwiperSlide className="content-center">
         <SlideWrapper>
           <AboutMe />
         </SlideWrapper>

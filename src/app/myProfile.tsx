@@ -2,10 +2,12 @@ import Image from "next/image";
 
 const MyProfile = () => {
   return (
-    <div className="flex flex-col-reverse sm:flex-row justify-between sm:space-x-10">
-      <div>
-        <p className="font-bold text-xl sm:text-2xl py-2">Mário Baldé</p>
-        <p className="font-bold text-base sm:text-lg py-2">
+    <div className="flex flex-col-reverse sm:flex-row justify-between sm:space-x-10 items-center">
+      <div className="basis-8/12">
+        <p className="font-bold text-xl sm:text-2xl py-2 text-center sm:text-left">
+          Mário Baldé
+        </p>
+        <p className="font-bold text-base sm:text-lg py-2 text-center sm:text-left">
           Software Engineer - Frontend
         </p>
         <p className="text-justify text-sm sm:text-base">
@@ -17,19 +19,19 @@ const MyProfile = () => {
           innovative solutions.
         </p>
       </div>
-      <div>
-        <Image
-          src="/images/profileImage.jpeg"
-          alt="Mario Balde Profile Image"
-          loading="lazy"
-          sizes="100vw"
-          style={{
-            width: "100%",
-            height: "auto",
-          }}
-          width={50}
-          height={50}
-        />
+      <div className="basis-4/12 py-2 sm:py-0">
+        <div className="w-1/2 h-1/2 sm:w-full sm:h-full relative inset-0 mx-auto">
+          <Image
+            src="/images/profileImage.jpeg"
+            alt="Mario Balde Profile Image"
+            loading="lazy"
+            width={500}
+            height={500}
+            objectFit="cover"
+            objectPosition="center"
+            className="relative rounded-full"
+          />
+        </div>
       </div>
     </div>
   );

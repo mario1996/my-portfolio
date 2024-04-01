@@ -9,7 +9,7 @@ const Footer = () => {
           © 2024 Mário Baldé
         </span>
         <ul className="flex flex-wrap justify-center items-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 space-x-3 sm:mt-0">
-          <li className="hover:scale-110">
+          <li className="hover:scale-110 hover:opacity-75">
             <Link
               href="https://linkedin.com/in/mário-baldé-a0187a140"
               target="_blank"
@@ -23,7 +23,7 @@ const Footer = () => {
               />
             </Link>
           </li>
-          <li className="hover:scale-110">
+          <li className="hover:scale-110 hover:opacity-75">
             <Link href="https://github.com/mario1996" target="_blank">
               <Image
                 src="/images/githubIconWhite.svg"
@@ -34,7 +34,7 @@ const Footer = () => {
               />
             </Link>
           </li>
-          <li className="hover:scale-110">
+          <li className="hover:scale-110 hover:opacity-75">
             <Link href="mailto:mario.balde@gmail.com" target="_blank">
               <Image
                 src="/images/envelopeIcon.svg"

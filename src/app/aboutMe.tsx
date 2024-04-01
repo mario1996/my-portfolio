@@ -3,7 +3,7 @@ import Link from "next/link";
 const AboutMe = () => {
   return (
     <>
-      <p className="font-bold text-lg sm:text-2xl py-2">
+      <p className="font-bold text-lg sm:text-2xl py-2 text-center sm:text-left">
         Crafting Exceptional User Experiences
       </p>
       <p className="text-justify text-sm sm:text-base">

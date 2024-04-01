@@ -9,7 +9,7 @@ const CV = () => {
           <div className="font-bold text-xl sm:text-5xl mx-auto text-center">
             <p>My Professional Odyssey</p>
           </div>
-          <div className="font-bold mx-auto hover:scale-110 underline">
+          <div className="font-bold mx-auto hover:scale-110 hover:opacity-75 underline">
             <Link
               href="/files/MarioBaldeCV2024.pdf"
               target="_blank"
