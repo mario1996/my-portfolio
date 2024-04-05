@@ -5,6 +5,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Mário Baldé",
   description: "My personal journey",
+  authors: { name: "Mário Baldé" },
 };
 
 export default function RootLayout({
