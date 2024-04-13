@@ -2,9 +2,9 @@
 
 import { Navigation, Pagination, Keyboard } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
-import SlideWrapper from "./slideWrapper/layout";
-import AboutMe from "./aboutMe";
-import MyProfile from "./myProfile";
+import SlideWrapper from "../../slideWrapper/layout";
+import AboutMe from "../aboutMe";
+import Profile from "../profile";
 
 import "swiper/css";
 import "swiper/css/navigation";
@@ -24,7 +24,7 @@ const Card = () => {
     >
       <SwiperSlide className="content-center">
         <SlideWrapper>
-          <MyProfile />
+          <Profile />
         </SlideWrapper>
       </SwiperSlide>
       <SwiperSlide className="content-center">

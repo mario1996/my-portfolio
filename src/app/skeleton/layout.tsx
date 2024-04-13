@@ -1,5 +1,5 @@
-import Header from "../header/page";
-import Footer from "../footer/page";
+import Header from "../components/header";
+import Footer from "../components/footer";
 
 export default function Skeleton({
   children,

@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-const MyProfile = () => {
+const Profile = () => {
   return (
     <div className="flex flex-col-reverse sm:flex-row justify-between sm:space-x-10 items-center">
       <div className="basis-8/12">
@@ -37,4 +37,4 @@ const MyProfile = () => {
   );
 };
 
-export default MyProfile;
+export default Profile;
